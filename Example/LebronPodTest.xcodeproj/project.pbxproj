@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		01CD561FC7780D120863AF7F /* Pods-LebronPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LebronPodTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-LebronPodTest_Tests/Pods-LebronPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0F5D9841F404FCCB404E6E00 /* LebronPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LebronPodTest.podspec; path = ../LebronPodTest.podspec; sourceTree = "<group>"; };
-		16143AB0DF664B3054D31907 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2668839CE68892E22A5850BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0F5D9841F404FCCB404E6E00 /* LebronPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LebronPodTest.podspec; path = ../LebronPodTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		16143AB0DF664B3054D31907 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2668839CE68892E22A5850BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		53279EA1F245D4AC178D165E /* Pods_LebronPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LebronPodTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* LebronPodTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LebronPodTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				C98570111CF624FC0BC8C59A /* Pods-LebronPodTest_Tests.debug.xcconfig */,
 				01CD561FC7780D120863AF7F /* Pods-LebronPodTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

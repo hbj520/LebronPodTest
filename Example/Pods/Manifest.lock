@@ -1,0 +1,16 @@
+PODS:
+  - LebronPodTest (0.1.0)
+
+DEPENDENCIES:
+  - LebronPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  LebronPodTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LebronPodTest: 36e4a44d756b572cbeaa1f2b5576c22c3aa9da40
+
+PODFILE CHECKSUM: e17e5ffecf5971e6865c8ebc13db040f9a151e74
+
+COCOAPODS: 1.8.3

@@ -1,0 +1,6 @@
+framework module LebronPodTest {
+  umbrella header "LebronPodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
