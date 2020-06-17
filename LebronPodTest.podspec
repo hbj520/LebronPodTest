@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LebronPodTest'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'this is a bron test podProject.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hbj520' => 'hbjmailformac@163.com' }
-  s.source           = { :git => 'https://github.com/hbj520/LebronPodTest.git', :tag => '0.0.4' }
+  s.source           = { :git => 'https://github.com/hbj520/LebronPodTest.git', :tag => '0.0.5' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #   'LebronPodTest' => ['LebronPodTest/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.swift'
   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
