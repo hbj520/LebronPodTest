@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #   'LebronPodTest' => ['LebronPodTest/Assets/*.png']
   # }
 
-  s.public_header_files = 'LebronPodTest/Classes/**/*.swift'
+ # s.public_header_files = 'LebronPodTest/Classes/**/*.swift'
   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
